@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Metrophobic&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main_container{
+    width: 340.73px;
+    height: 100%;
+    margin: auto;
+}
+/* Header */
+.header{
+    width: 340.73px;
+    height: 18px;
+    color: #007F61;
+    font-family: 'Metrophobic', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+.header::before,
+.header::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background-color: #000; 
+}
+.header::before {
+    left: 0;
+}
+.header::after {
+    right: 0;
+}
+/* 3 section */
+.first-pair,.second-pair,.third-pair{
+    width: 340.73px;
+    height: 74.11px;
+    border: 1px solid #C8C8C8;
+    top: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    
+}
+
+.price1-container,.price2-container,.price3-container{
+    display: flex;
+    margin-top: 23px;
+    font-family: 'MetropolisRegular';
+    font-weight: normal;
+}
+.price1-container input,.price2-container,.price3-container{
+  margin-left: 18px;
+}
+.price1-container .price-div ,.price2-container .price-div,.price3-container .price-div{
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.price1-container .offer,.price3-container .offer{
+    margin-left: 130px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    font-family: 'MetropolisRegular';
+    font-weight: bold;
+}
+.price2-container .offer{
+    margin-left: 25px;
+}
+.dkk-price{
+    padding-top: 4px;
+    font-family: 'MetropolisRegular';
+    font-weight: bold;
+}
+/* second section's middle div price */
+.dkk_195{
+    font-size: 9.94px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #808080;
+    text-decoration: line-through;
+    margin-top: 18px;
+    margin-left: 26px;
+}
+/* second section's */
+.offer-block{
+    margin-left: 31px;
+    font-size: 12.65px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.popular{
+    font-size: 12.65px;
+    font-family: "Inter";
+    font-weight: 600;
+    color: rgba(0, 127, 97, 1);
+}
+/* [HTML template] */
+.size-colour-container{
+    display: none;
+}
+.size-colour-block{
+    display: block;
+}
+.pair-height{
+    height: 162px;
+    border-color: green;
+    background-color: #ebebeb;
+}
+.size-colour-div{
+    display: flex;
+    margin-left: 48px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+.size {
+    font-size: 9px;
+    width: 40%;
+}
+.colour {
+    font-size: 9px;
+    width: 40%;
+}
+.first-size-div,.second-size-div{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.serial-number{
+    font-size: 9.04px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 10px;
+    height: 11px;
+    margin-top: 5px;
+}
+
+/* Shipping Container */
+.shipping-container{
+    display: flex;
+    margin-top: 10px;
+}
+.shipping-text p {
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(0, 127, 97, 1);
+}
+.total-price p {
+    color: #000000;
+    margin-left: 79px;
+}
+/* Add to Cart Block */
+.cart-block {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #007F61;
+    height: 48px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-text {
+    position: absolute;
+    right: 135px;
+    top: 14px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+/* Powered By */
+.powered_by{
+    font-size: 12px;
+    font-family: "Inter";
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    float: right;
+    margin-top: 10px;
+}
